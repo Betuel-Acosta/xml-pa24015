@@ -1,0 +1,50 @@
+preguntas {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  padding: 20px;
+}
+
+preguntas::before {
+  content: "Preguntas y respuestas:";
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+
+pregunta {
+  display: block;
+  background-color: white;
+  border: 2px solid darkgray;
+  margin-bottom: 15px;
+  padding: 12px 16px;
+}
+
+enunciado::before {
+  content: "Pregunta " attr(numero) ": ";
+  color: black;
+}
+
+enunciado {
+  display: block;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+/* Formato de la respuesta */
+respuesta {
+  display: block;
+  font-size: 14px;
+  line-height: 1.4;
+  color: rgb(34, 34, 34);
+}
+
+respuesta::before {
+  content: "Respuesta: ";
+  font-weight: bold;
+  color: darkred;
+}

@@ -1,0 +1,62 @@
+volver {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+pais {
+  display: block;
+  border-style: solid;
+  border-color: black;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+/* Esto tuve que buscar como hacerlo */
+pais::before {
+  content: "Pais: " attr(nombre) " (Código: " attr(codigoArea) ")";
+  font-size: 22px;
+  font-weight: bold;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+informacionGeneral {
+  display: block;
+  border-style: solid;
+  border-color: black;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+monedas, idiomas {
+  display: block;
+  margin-bottom: 5px;
+}
+
+moneda, idioma {
+  display: block;
+  color: black;
+  margin-left: 15px;
+}
+
+departamento {
+  display: block;
+  background-color: white;
+  border-style: solid;
+  border-color: darkblue;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+cabecera {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+habitantes, altura, areaTerritorial {
+  display: block;
+  color: black;
+}

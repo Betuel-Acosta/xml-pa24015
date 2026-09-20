@@ -1,0 +1,55 @@
+fichero {
+  display: block; /*<-Esto está bien genial*/
+  background-color: black;
+  padding: 15px;
+}
+
+ficha {
+  display: block;
+  background-color: whitesmoke;
+  border: 2px solid #2b5797;
+  margin-bottom: 15px;
+  padding: 12px;
+}
+
+nombre, apellido {
+  display: inline;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+apellido {
+  margin-left: 5px;
+}
+
+direccion {
+  display: block;
+  color: #555555;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+telefonos {
+  display: block;
+  margin-top: 6px;
+}
+
+telefono {
+  display: block;
+  color: green;
+  font-size: 14px;
+}
+
+email {
+  display: block;
+  color: darkblue;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+sitioWeb {
+  display: block;
+  color: darkgreen;
+  font-size: 14px;
+  margin-top: 4px;
+}

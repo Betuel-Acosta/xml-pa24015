@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="pa24015-ejercicio1b.css" ?>
+<!-- ejercicio1b.xml  PA24015 -->
+<fichero>
+
+<ficha id="1" fechaingreso="1/11/2012">
+<nombre>Antonio</nombre>
+<apellido>Barbero</apellido>
+<direccion>Calle de Los Andes, 45</direccion>
+</ficha>
+
+<ficha id="2" fechaingreso="1/01/2024">
+    <nombre>Tito Betuel</nombre>
+    <apellido>Portillo Acosta</apellido>
+    <direccion>San Salvador El Salvador</direccion>
+    <telefonos>
+      <telefono tipo="movil">+503 7051-0716</telefono>
+      <telefono tipo="fijo">+503 2212-0122</telefono>
+    </telefonos>
+    <email tipo="personal">betuel@hotmail.com</email>
+    <sitioWeb tipo="github" url="https://github.com/betuel-acosta">Perfil de GitHub</sitioWeb>
+  </ficha>
+  
+  <ficha id="3" fechaingreso="01/12/2006">
+    <nombre>Oscar Balmore</nombre>
+    <apellido>Olano Orlando</apellido>
+    <direccion>Calle a San Bernandinho</direccion>
+    <telefonos>
+      <telefono tipo="movil">+502 7382-8392</telefono>
+    </telefonos>
+    <email tipo="laboral">carlos.hernandez@empresa.com</email>
+    <documentacion pais="Guatemala">
+      <dui homologado="true">05123456-7</dui>
+      <isss estado="activo">012343210</isss>
+      <afp institucion="Crecer">05123456-7</afp>
+    </documentacion>
+  </ficha>
+</fichero>

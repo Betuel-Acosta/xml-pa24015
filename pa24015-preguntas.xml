@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="pa24015-preguntas.css" ?>
+<!-- Preguntas y respuestas  PA24015 -->
+<preguntas>
+
+  <pregunta >
+    <enunciado numero="1">¿En la estructura y la lógica de XML en qué se dierencia un elemento de un atributo?</enunciado>
+    <respuesta>Un elemento representa una entidad de datos principal delimitada por etiquetas de apertura y cierre (&lt;nombre&gt;...&lt;/nombre&gt;) y puede contener texto, otros elementos anidados o estar vacío. Un atributo es un par nombre="valor" que se ubica dentro de la etiqueta de apertura de un elemento para aportar metadatos complementarios o propiedades secundarias sobre dicho elemento (por ejemplo, id="1" o zona="central"), sin almacenar la estructura principal de la información.</respuesta>
+  </pregunta>
+
+  <pregunta >
+    <enunciado numero="2">¿Cómo se define un anidamiento y qué tipo de restricciones tiene a nivel jerarquico o categorico?</enunciado>
+    <respuesta>El anidamiento es la inclusión de uno o más elementos dentro de otro elemento contenedor, estableciendo una relación jerárquica de padre e hijo. Su restricción estricta en XML bien formado es que las etiquetas deben cerrarse exactamente en el orden inverso al que fueron abiertas (regla LIFO: Last In, First Out), evitando traslapes o cruces de etiquetas. A nivel jerárquico, exige la existencia de un único elemento raíz que encapsule a todos los demás niveles del documento.</respuesta>
+  </pregunta>
+
+  <pregunta >
+    <enunciado numero="3">¿Cómo puede existir una equivalencia entre XML y JSON, cuales son sus caracteristicas en común?</enunciado>
+    <respuesta>Ambos son formatos de texto plano estructurados, legibles por humanos y diseñados para el intercambio e interoperabilidad de datos. La equivalencia radica en que las etiquetas de XML corresponden a las claves (keys) u objetos en JSON, los elementos repetidos de un mismo tipo equivalen a arreglos (arrays), y el contenido de texto corresponde a valores primitivos (strings, números o booleanos). Ambos mantienen una arquitectura jerárquica en forma de árbol.</respuesta>
+  </pregunta>
+  
+  <pregunta >
+    <enunciado numero="4">¿Qué diferencia existe entre CSS dirigido a lenguaje HTML y XML?</enunciado>
+    <respuesta>En HTML, los navegadores poseen estilos predeterminados para cada etiqueta (por ejemplo, &lt;h1&gt; ya es grande y bloque, &lt;p&gt; tiene márgenes, etc.). En cambio, en XML no existe semántica visual predefinida: el navegador interpreta todas las etiquetas desconocidas como elementos en línea continuos. Por ello, el CSS para XML requiere definir obligatoriamente la propiedad de flujo visual (display: block o display: inline) y sus espaciados desde cero para que el contenido no aparezca amontonado en una sola línea.</respuesta>
+  </pregunta>
+</preguntas>

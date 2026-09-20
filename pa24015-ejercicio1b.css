@@ -1,0 +1,65 @@
+volver {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+fichero {
+  display: block;
+  background-color: black;
+  padding: 10px;
+}
+
+ficha {
+  display: block;
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 10px;
+}
+
+nombre {
+  display: inline;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+apellido {
+  display: inline;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+direccion {
+  display: block;
+  color: darkgray;
+}
+
+telefonos, telefono, email, sitioWeb {
+  display: block;
+  color: green;
+}
+
+documentacion {
+  display: block;
+  background-color: whitesmoke;
+  border-style: solid;
+  border-color: black;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+dui {
+  display: block;
+  margin-top: 10px;
+}
+
+isss {
+  display: block
+  margin-top: 10px;
+}
+
+afp {
+  display: block;
+}

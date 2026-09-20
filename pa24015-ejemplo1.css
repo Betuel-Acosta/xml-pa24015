@@ -1,0 +1,26 @@
+fichero {
+  background-color: black;
+  padding: 15px;
+}
+
+ficha {
+  background-color: black;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+nombre, apellido {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+apellido {
+  margin-left: 5px;
+}
+
+direccion {
+  color: whitesmoke;
+  font-size: 15px;
+  margin-top: 5px;
+}

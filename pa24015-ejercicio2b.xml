@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="pa24015-ejercicio2b.css" ?>
+<!-- ejercicio2b.xml  PA24015 -->
+<pais nombre="El Salvador" codigoArea="+503">
+
+<informacionDePais>
+    <monedas>
+      <moneda tipo="curso_legal">Dólar estadounidense (USD)</moneda>
+      <moneda tipo="curso_legal">Bitcoin (BTC)</moneda>
+    </monedas>
+    <idiomas>
+      <idioma clasificacion="oficial">Español</idioma>
+      <idioma clasificacion="autoctono">Náhuat</idioma>
+      <idioma clasificacion="segundo_idioma">Inglés</idioma>
+    </idiomas>
+  </informacionDePais>
+  
+<departamento id="1" nombre="San Salvador" zona="Central">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+
+<departamento id="2" nombre="Cuscatlán" zona="Central">
+    <cabecera>Cojutepeque</cabecera>
+    <habitantes>244,900</habitantes>
+    <altura>850 MSNM</altura>
+    <areaTerritorial unidad="km2">756.20</areaTerritorial>
+  </departamento>
+  
+  <departamento id="3" nombre="La unión" zona="Oriental">
+    <cabecera>La Unión</cabecera>
+    <habitantes>116,835</habitantes>
+    <altura>122 MSNM</altura>
+    <areaTerritorial unidad="km2">2,074.30</areaTerritorial>
+  </departamento>
+  
+</pais>
