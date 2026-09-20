@@ -30,3 +30,11 @@ altura {
   margin-top: 10px;
   margin-left: 20px;
 }
+
+volver {
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}

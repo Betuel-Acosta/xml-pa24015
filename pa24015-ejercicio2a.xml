@@ -27,4 +27,6 @@
     <altura>850 MSNM</altura>
     <areaTerritorial unidad="km2">756.20</areaTerritorial>
   </departamento>
+  
+    <volver>Haga click en este <a xmlns="http://www.w3.org/1999/xhtml" href="index.html">enlace</a> para volver a la pagina principal.</volver>
 </pais>

@@ -63,3 +63,10 @@ isss {
 afp {
   display: block;
 }
+
+volver {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}

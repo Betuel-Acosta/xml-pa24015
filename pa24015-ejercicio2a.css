@@ -60,3 +60,17 @@ habitantes, altura, areaTerritorial {
   display: block;
   color: black;
 }
+
+volver {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+volver {
+  display: block;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}

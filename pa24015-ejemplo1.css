@@ -24,3 +24,10 @@ direccion {
   font-size: 15px;
   margin-top: 5px;
 }
+
+volver {
+  display: block;
+  text-align: center;
+  color: rgb(252, 161, 58);
+  font-weight: bold;
+}

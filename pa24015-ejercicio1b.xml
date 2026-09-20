@@ -35,4 +35,6 @@
       <afp institucion="Crecer">05123456-7</afp>
     </documentacion>
   </ficha>
+  
+    <volver>Haga click en este <a xmlns="http://www.w3.org/1999/xhtml" href="index.html">enlace</a> para volver a la pagina principal.</volver>
 </fichero>

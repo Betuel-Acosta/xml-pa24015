@@ -48,3 +48,10 @@ respuesta::before {
   font-weight: bold;
   color: darkred;
 }
+
+volver {
+  display: block;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}

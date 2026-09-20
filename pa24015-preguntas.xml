@@ -22,4 +22,6 @@
     <enunciado numero="4">¿Qué diferencia existe entre CSS dirigido a lenguaje HTML y XML?</enunciado>
     <respuesta>En HTML, los navegadores poseen estilos predeterminados para cada etiqueta (por ejemplo, &lt;h1&gt; ya es grande y bloque, &lt;p&gt; tiene márgenes, etc.). En cambio, en XML no existe semántica visual predefinida: el navegador interpreta todas las etiquetas desconocidas como elementos en línea continuos. Por ello, el CSS para XML requiere definir obligatoriamente la propiedad de flujo visual (display: block o display: inline) y sus espaciados desde cero para que el contenido no aparezca amontonado en una sola línea.</respuesta>
   </pregunta>
+  
+  <volver>Haga click en este <a href="index.html" xmlns="http://www.w3.org/1999/xhtml">enlace</a> para volver a la pagina principal.</volver>
 </preguntas>
